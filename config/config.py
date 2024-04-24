@@ -183,47 +183,47 @@ GLOBAL_IMG_URL = getenv(
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
     "assets/Stats.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
     "assets/Audio.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
     "assets/Video.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
     "assets/Stream.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
     "assets/Soundcloud.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
     "assets/Youtube.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
     "assets/SpotifyArtist.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
     "assets/SpotifyAlbum.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
     "assets/SpotifyPlaylist.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 
 def time_to_seconds(time):
