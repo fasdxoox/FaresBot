@@ -98,8 +98,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "42c1a06ff39843ed89e5222902181252")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "17a405c95e9e441d9a44ce9f30e5d5de")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -163,22 +163,22 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
     "assets/Ping.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
     "assets/Playlist.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
     "assets/Global.jpeg",
-)
+"https://telegra.ph/file/4e4e5d9294df98ed1f233.jpg")
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
